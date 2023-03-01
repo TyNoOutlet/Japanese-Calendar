@@ -7,7 +7,7 @@
     <h1>Japanese Calendar</h1>
     <h3>Today is:</h3>
     <p id="holiday">No holiday today.</p>
-    <p>Fun fact: there are # holidays in the database.</p>
+    <p>Fun fact: there are 66 holidays in the database, so around 18% of days are holidays in Japan.</p>
     <script>
       var holiday = document.getElementById("holiday");
       const d = new Date();
@@ -41,7 +41,7 @@
         holiday.textContent = "Usui: The solar term when the sun is at 330 degrees celestial longitude. Said to be the first day when rain, rather than snow, falls, the southerly spring wind may blow, and preparations for farming begin.";
       } else if (month === 1 && day === 23) {
         holiday.textContent = "Emperor's Birthday (Naruhito): The Imperial Palace grounds are opened to the public, and the Emperor typically gives greetings and thanks.";
-      } else if (month === 2 && day === 3) {
+      } else if (month === 2 && day === 1) {
         holiday.textContent = "Hinamatsuri: Also known as Girls' Day, a very expensive and beautiful doll set is placed in households with girls, and foods such as hishi mochi, chirashizushi, and amazake are consumed.";
       } else if (month === 2 && day === 5) {
         holiday.textContent = "Keichitsu (2023): The solar term when the sun is at 345 degrees celestial longitude. Said to be when many insects leave the ground for the first time since the new year.";
