@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Japanese Calendar</title>
+  </head>
+  <body>
+    <h1>Japanese Calendar</h1>
+    <h3>Today is:</h3>
+    <p id="holiday">No holiday today.</p>
+    <script>
+      var holiday = document.getElementById("holiday");
+      const d = new Date();
+      let month = d.getMonth();
+      let day = d.getDate();
+      if (month === 0 && day === 1) {
+        holiday.textContent = "New Year's Day: Many of the items that were prepared on previous days are used on this day, such as the osechi, some of the mochi excluding the kagami mochi, and receiving New Year's cards. New things that are done on this day include creating haiku, playing games like sugoroku, fukuwarai, kite flying, hanetsuki, and karuta. Beethoven's Ninth Symphony is also popular around this time. Some people may fall asleep on this night for the first time since rising on December 31st, and so the dream that one has this night is called hatsuyume, first dream. If this dream has Mount Fuji, a hawk, and an eggplant, the dreamer has good luck. The first sunrise is considered momentous. Lucky tea, consisting of green tea with small strips of seaweed, is also drank on this day.";
+      } else if (month === 0 && day === 2) {
+        holiday.textContent = "New Year's house visits may begin on this day. It is typical to arrive around 2pm at the house, have a light conversation in the doorway, and then leave. Typically one does not enter the house even if invited in. The first calligraphy is done on this day. In addition, other New Year's celebrations continue today, including eating mochi and osechi, as well as playing games.";
+      } else if (month === 0 && day === 3) {
+        holiday.textContent = "New Year's celebrations continue through and mostly cease after today, including eating mochi and osechi, as well as playing games.";
+      } else if (month === 0 && day === 5) {
+        holiday.textContent = "Shōkan: The solar term when the sun is at 285 degrees celestial longitude. Said to be the beginning of the very coldest time of year. Winter greeting cards begin around this time.";
+      } else if (month === 0 && day === 7) {
+        holiday.textContent = "Jinjitsu (nanakusa no sekku): It is typical to eat a rice congee with 7 specific herbs on this day. Local variations of the herbs are common.";
+      } else if (month === 0 && day === 11) {
+        holiday.textContent = "Kagami biraki: The kagami mochi that was placed somewhere in the house in December is broken and eaten today.";
+      } else if (month === 0 && day === 15) {
+        holiday.textContent = "Little New Year: Congee with adzuki beans is often eaten for breakfast early in the morning on this day, and games such as tug-of-war are sometimes played. The kadomatsu is traditionally burned on this day. It is also the last day that New Year's house visits should be performed.";
+      } else if (month === 0 && day === 20) {
+        holiday.textContent = "Daikan: The solar term when the sun is at 300 degrees celestial longitude. The very coldest time of year. Training in the cold begins for martial arts schools and some normal exercisers.";
+      } else if (month === 1 && day === 3) {
+        holiday.textContent = "Setsubun: Mameki (throwing roasted soybeans or peanuts at a demon or out the front door) is common today. Then, the number of roasted legumes that is equivalent to the person's age + 1 are eaten after that. Eho-maki (lucky direction sushi rolls) are also eaten today with one's eyes closed, and some decorate the front door/entrance of the house with holly leaves and/or fish heads.";
+      } else if (month === 1 && day === 4) {
+        holiday.textContent = "Risshun: The solar term when the sun is at 315 degrees celestial longitude. Said to be the peak of winter, when spring signs begin to arrive.";
+      } else if (month === 1 && day === 11) {
+        holiday.textContent = "National Foundation Day: Reflects on the history of Japan, on the traditional founding date in 660 BC.";
+      };
