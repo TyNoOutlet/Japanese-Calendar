@@ -7,6 +7,7 @@
     <h1>Japanese Calendar</h1>
     <h3>Today is:</h3>
     <p id="holiday">No holiday today.</p>
+    <p>Fun fact: there are # holidays in the database.</p>
     <script>
       var holiday = document.getElementById("holiday");
       const d = new Date();
@@ -114,5 +115,39 @@
         holiday.textContent = "Fall equinox (Shubun no Hi): Ohagi, a form of botamochi, is eaten for several days around this time, and people spend lots of time outside in the nice weather. Also the solar term when the sun is at 180 degrees celestial longitude.";
       } else if (month === 8 && day === 29) {
         holiday.textContent = "Tsukimi begins: The season of Tsukimi, or watching the harvest moon, begins. Sweet potatoes and mochi are commonly eaten. Even if the moon is not visible for any one of these nights, the celebration for that night is still done.";
-      }
+      } else if (month === 9 && day === 2) {
+        holiday.textContent = "Tsukimi ends: End of the moon-viewing period Tsukimi.";
+      } else if (month === 9 && day === 7) {
+        holiday.textContent = "Kanro: The solar term when the sun is at 195 degrees celestial longitude. Said to be when the atmosphere gets cold enough in the morning that the dew begins to reach freezing point. However, this is rarely true for most of Japan: in 2021 it was around 90 degrees on this day in outer Tokyo, hotter than it was in Florida.";
+      } else if (month === 9 && day === 23) {
+        holiday.textContent = "Sōkō: The solar term when the sun is at 210 degrees celestial longitude. Said to be when the air finally gets cold enough that frost may begin to form. Said to be the beginning of when the northerly autumn wind may blow.";
+      } else if (month === 9 && day === 27) {
+        holiday.textContent = "Mamemeigetsu begins: A lesser holiday in comparison to Tsukimi, beans or chestnuts are eaten while watching the moon. This holiday also runs for several days, like Tsukimi.";
+      } else if (month === 9 && day === 29) {
+        holiday.textContent = "Oshibori Day: A commercial holiday to reflect on oshibori.";
+      } else if (month === 10 && day === 3) {
+        holiday.textContent = "Culture Day: A day to do all things Japanese. Plays, food, and other cultural items are to be commemorated today.";
+      } else if (month === 10 && day === 7) {
+        holiday.textContent = "Rittō: The solar term when the sun is at 225 degrees celestial longitude. Said to be when autumn is at its peak and signs of winter begin to show, but autumn leaves are often not at their peak yet.";
+      } else if (month === 10 && day === 15) {
+        holiday.textContent = "Shichi-go-san: On this day, three, five, and seven year olds of Japan go to shrines or parks to get their picture taken with kimono on, often with a bag of candy and sometimes money.";
+      } else if (month === 10 && day === 22) {
+        holiday.textContent = "Shōsetsu: The solar term when the sun is at 240 degrees celestial longitude. Said to be around the time when the first light snow falls.";
+      } else if (month === 10 && day === 23) {
+        holiday.textContent = "Labor Thanksgiving Day: A rough parallel to Thanksgiving in the United States, with elements of Labor Day incorporated. In some places, feasts are held and celebrations in general are done; in others, the holiday is seen as just another day off from work.";
+      } else if (month === 11 && day === 6) {
+        holiday.textContent = "Taisetsu: The solar term when the sun is at 255 degrees celestial longitude. Said to be when the more heavy snow begins to fall. Often when winter foods become popular.";
+      } else if (month === 11 && day === 13) {
+        holiday.textContent = "Matsumukae: The traditional day kadomatsu materials are secured and the kadomatsu is constructed. Also traditionally regarded as the beginning of the new year season in Japan. Other preparations for the new year may start on this day.";
+      } else if (month === 11 && day === 21) {
+        holiday.textContent = "Winter solstice (Touji): The beginning of winter. Pumpkin and tofu are eaten and a yuzu bath is taken on this day. Also the solar term when the sun is at 270 degrees celestial longitude.";
+      } else if (month === 11 && day === 24) {
+        holiday.textContent = "Christmas Eve: Largely regarded as a romantic holiday, specifically in the evening. Parties may be held, and Christmas Eve representations are abundant in all forms of Japanese media.";
+      } else if (month === 11 && day === 31) {
+        holiday.textContent = "New Year's Eve (Omisoka): Bathing soon before midnight is common, and families gather together one last time at around 11pm to eat toshikoshi soba. People may also watch New year's Eve specials on TV. People almost always either stay up until midnight, or stay up for the entire night and fall asleep on the night of January 1st. Drinking o-toso or similar is popular at midnight or just after it.";
+      };
+    </script>
+  </body>
+</html>
+        
         
