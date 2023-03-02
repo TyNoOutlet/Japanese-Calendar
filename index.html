@@ -7,7 +7,7 @@
     <h1>Japanese Calendar</h1>
     <h3>Today is:</h3>
     <p id="holiday">No holiday today.</p>
-    <p>Fun fact: there are 66 holidays in the database, so around 18% of days are holidays in Japan.</p>
+    <p>Fun fact: there are 67 holidays in the database, so around 18% of days are holidays in Japan.</p>
     <script>
       var holiday = document.getElementById("holiday");
       const d = new Date();
@@ -125,6 +125,8 @@
         holiday.textContent = "Mamemeigetsu begins: A lesser holiday in comparison to Tsukimi, beans or chestnuts are eaten while watching the moon. This holiday also runs for several days, like Tsukimi.";
       } else if (month === 9 && day === 29) {
         holiday.textContent = "Oshibori Day: A commercial holiday to reflect on oshibori.";
+      } else if (month === 9 && day === 30) {
+        holiday.textContent = "Mamemeigetsu ends: End of the moon-viewing period Mamemeigetsu.";
       } else if (month === 10 && day === 3) {
         holiday.textContent = "Culture Day: A day to do all things Japanese. Plays, food, and other cultural items are to be commemorated today.";
       } else if (month === 10 && day === 7) {
